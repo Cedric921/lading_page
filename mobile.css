@@ -1,0 +1,138 @@
+@media screen and (max-width: 750px){
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+  }
+  p{
+    line-height: 25px;
+  }
+
+  nav{
+    display: none;
+  }
+
+  .hide{
+    display: block;
+  }
+
+  .show{
+    display: block;
+  }
+  nav p {
+    display: none;
+  }
+  
+  .nav-toggle{
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+  .mobile-menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  h3{
+    font-size: 20px;
+  }
+  nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul li {
+    display: block;
+  }
+
+
+
+  main article{
+    width: 100%;
+    text-align: center;
+  }
+  .oeuf1{
+    order: 0;
+  }
+  .oeuf2{
+    order: 1;
+  }
+  .oeuf3{
+    order: 2;
+  }
+  .oeuf4{
+    order: 3
+  }
+  .bg1, .bg2{
+    order: 4;
+  }
+
+  .with-text{
+    padding-bottom: 36px;
+  }
+  .with-text h3{
+    font-size: 28px;
+  }
+
+  .bg1, .bg2 {
+    padding: 100px 30px 20px 30px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+  }
+  aside {
+    padding-top: 50px;
+  }
+  aside div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  aside h3{
+    font-size: 18px;
+    color: gray;
+  }
+
+  aside div article{
+    width: 100%;
+  }
+  aside div article{
+    width: 300px;
+    padding: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  
+  div article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  div.identifiants {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  div article img {
+    width: 80px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+  }
+  .images{
+    display: grid;
+    height: auto;
+    margin:0;
+    padding:0;
+    width:100%;
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
